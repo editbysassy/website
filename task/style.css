@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Bytesized&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200px;
+  font-style: normal;
+}
+.navigation{
+    margin-top: 30px;
+    height: 80px;
+    width: 100%;
+    background-color: #043873;
+    padding: 16px 220px  ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+
+}
+.navlogo{
+
+}
+.navlogo img{
+    height: 25px;
+    width: 165px;
+}
+.navlist{
+ display: flex;
+ justify-content: space-between;
+}
+
+#navlist{
+    list-style: none;
+      display: flex;
+     
+   
+    justify-content: space-between;
+    color: white;
+    gap: 20px;
+}
+#navlist ul{
+             list-style: none;
+               display:grid;
+               grid-template-columns: repeat(4,1fr);
+               grid-gap: 30px;
+               align-items: center;
+          }
+#navlist  a{
+color: white;
+text-decoration: none;
+}
+.navbtn{
+display: flex;
+justify-content: space-between;
+gap: 10px;
+padding-left: 20px;
+
+}
+#navlogin{
+    height: 40px;
+    width: 76px;
+    border-radius: 10px;
+    background-color: #FFE492;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+   
+
+}
+#btn-free-trial{
+    background-color: #4F9CF9;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+     font-weight: 400;
+     font-size: 18px;
+   
+}
+main{
+    background-color: #043873;
+     padding: 80px 220px 10px 220px ;
+    width: 100%;
+    height: 550px;
+     display: flex;
+     justify-content: space-between;
+     gap: 10px;
+}
+#hero-heading div {
+ padding: 60px 0px 0px 0px;
+ size: 40%;
+
+}
+#hero-heading div h1{
+    color: white;
+   font-style: bold;
+    font-size: 46px;
+    line-height: 1.2;
+    font-weight: 700;
+    
+}
+#hero-heading  p{
+    color:#FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    padding-right: 10px;
+    padding-top: 25px;
+     width: 480px;
+    height: 60px;
+
+}
+#btn{
+    
+    margin-top: 22px;
+}
+#hero-heading button{
+      background-color: #4F9CF9;
+    height: 45px;
+    width: 200px;
+    border-radius: 10px;
+   
+     font-weight: 300;
+     font-size: 16px;
+     
+}
+#hero-heading button:hover{
+    color:#C4DEFD;
+}
+#img-cointener{
+    height: 400px;
+    width: 850px;
+    background-color: #C4DEFD;
+
+    border-radius: 15px;
+}
+.workmanage{
+    padding: 90px 220px 10px 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+   
+}
+
+#headline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+#textblock{
+    height: 200px;
+    width: 500px;
+    padding:50px 20px 0px 0px  ;
+}
+#textblock h1{
+    width: 300px;
+    font-size: 55px;
+    font-weight: 700;
+    color: #212529;
+    line-height: 1.2;
+
+}
+#textblock p{
+    width: 550px;
+    font-size: 14px;
+    columns: #212529;
+    line-height: 1.6;
+    padding-top: 20px;
+   
+
+
+}
+
+#textblockbtn{
+    height: 40px;
+    width: 200px;
+      background-color: #4F9CF9;
+
+    border-radius: 10px;
+    
+     font-weight: 300;
+     font-size: 16px;
+     margin-top: 30px;
+  
+    
+}
+.image-cointainer{
+    height: 400px;
+    width: 500px;
+    background-color: #C4DEFD;
+   
+}
+.wtimg img{
+    height:450px ;
+    width: 550px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    gap:0px;
+
+}
+#textarea{
+    width: 100%;
+    height: 200px;
+    
+   margin-left: 90px;
+  margin-top: 110px;
+  
+}
+#textarea h1{
+    font-size: 50px;
+    
+}
+#textarea p{
+    width: 550px;
+    padding-top: 25px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+#contentbtn{
+         background-color: #4F9CF9;
+    height: 45px;
+    width: 130px;
+    border-radius: 5px;
+    
+     font-weight: 600;
+     font-size: 16px;
+
+     margin-top: 45px;
+}
+.needs{
+    margin-top: 100px;
+    background-color: #043873;
+     padding: 100px 220px 10px 220px ;
+    width: 100%;
+    height: 550px;
+     display: flex;
+     justify-content: space-between;
+     gap: 10px;
+}
+#heading div{
+ padding: 80px 0px 0px 0px;
+
+
+}
+#heading div h1{
+     color: white;
+   font-style: bold;
+    font-size: 46px;
+    line-height: 1.2;
+  
+    font-weight: 700;
+}
+#heading p{
+      color:#FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    padding-right: 10px;
+    padding-top: 25px;
+     width: 480px;
+    height: 60px;
+    
+}
+.btn-lets-go{
+    background-color: #4F9CF9;
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+   
+     font-weight: 300;
+     font-size: 16px;
+     color: white;
+    
+     
+}
+#btn2{
+     margin-top: -20px;
+}
+#img-box{
+      height: 350px;
+    width: 500px;
+    background-color: #C4DEFD;
+
+    border-radius: 15px;
+}
+.Customise{
+    padding: 60px 220px 50px 220px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    height: 500px;
+    width: 100%;
+   
+
+}
+#left-box{
+    height: 350px;
+    width: 40%;
+    background-color: #C4DEFD;
+    
+   
+}
+#right{
+    width:50%;
+    padding: auto;
+    padding-top: 50px;
+}
+#right h1{
+      font-size: 50px;
+}
+#right p{
+       width: 550px;
+    padding-top: 25px;
+    font-size: 14px;
+    line-height: 1.6;
+
+}
+#btn3{
+        background-color: #4F9CF9;
+    height: 45px;
+    width: 130px;
+    border-radius: 5px;
+
+     font-weight: 600;
+     font-size: 16px;
+    
+     margin-top: 45px;
+     border: none;
+     color: white;
+}
+.Pricing{
+    padding: 50px 220px 30px 220px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    gap: 40px;
+    
+
+}
+#tophead{
+    display: flex;
+    flex-direction:column;
+    gap: 30px;
+  align-items: center;
+}
+#tophead h1{
+  font-size: 50px;
+} 
+#tophead p{
+     max-width: 900px;
+     text-align: center;
+
+   
+}
+#pricelist{
+    height: 500px;
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.priceboard{
+    height: 430px;
+    width: 32%;
+    padding: 40px 44px ;
+    border: 3px solid #FFE492;
+    cursor: pointer;
+    transition: all 2s linear 1s;
+     
+
+}
+ .priceboard:hover{
+    background-color: #043873;
+    height:500px ;
+    
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.159); 
+    color: white; 
+    border: 3px solid green;
+}
+.priceboard .pricetexthead h3{
+     transition: all 2s linear 1s;
+
+}
+.priceboard:hover .pricetexthead h3{
+    color: #FFE492;
+}
+.pricetexthead{
+    margin-bottom: 25px;
+
+}
+.pricetexthead h6{
+    font-size: 16px;
+    
+}
+.pricetexthead h3{
+font-size:25px;
+    margin-top: 10px 
+}
+.pricetexthead p{
+    font-size: 13px;
+     margin-top: 10px ;
+}
+
+.bulletpoint{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0px 0px 20px 0px;
+}
+.tikimg{
+    display: flex;
+    gap: 15px;
+  
+    
+}
+.tikimg img{
+height: 2%;
+width: 7%;
+}
+.tikimg p{
+  
+   font-size: 12px;
+   color: #212529;
+    transition: all 2s linear 1s;
+}
+.priceboard:hover .bulletpoint .tikimg p{
+    color: #FFFFFF;
+}
+.pricetextbtn{
+    margin-top: 20px;
+}#btn4{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border:1px solid #FFE492;
+    transition: all 2s linear 1s;
+}
+.priceboard:hover .pricebtn4 #btn4{
+    background-color: #4F9CF9;
+    border: none;
+    cursor: pointer;
+
+}
+
+.workspace{
+    padding: 50px 220px 20px 220px;
+    background-color: #043873;
+    height: 300px;
+}
+.workspace h6{
+    color: white;
+   font-style: bold;
+    font-size: 46px;
+    line-height: 1.2;
+  
+    font-weight: 700;
+    
+}
